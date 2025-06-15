@@ -72,13 +72,12 @@ To install the kubectl MCP plugin:
 
 1. Build the plugin:
    ```bash
-   cd $GOPATH/src/k8s.io/kubernetes
    make kubectl-mcp
    ```
 
 2. Move the binary to a location in your PATH:
    ```bash
-   sudo mv _output/bin/kubectl-mcp /usr/local/bin/
+   sudo mv kubectl-mcp /usr/local/bin/
    ```
 
 3. Verify the installation:
